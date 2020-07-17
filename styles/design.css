@@ -4,6 +4,7 @@ nav{
 	text-align: right;
 	position: fixed;
 	width: 100%;
+	top: 0;
 }
 
 .home{
@@ -19,4 +20,31 @@ ul{
 .nav-list{
 	display: inline-block;
 	margin-right: 15px;
+}
+
+.main-container{
+	margin-top: 150px;
+	width: 600px;
+	margin-left: 100px;
+	border: solid 1px black;
+}
+
+.search-jobs{
+	display: block;
+}
+
+.search-input{
+	width: 80%;
+	position: relative;
+	border: none;
+}
+
+img{
+	width: 25px;
+}
+
+button{
+	float: right;
+	position: absolute;
+	border: none;
 }
