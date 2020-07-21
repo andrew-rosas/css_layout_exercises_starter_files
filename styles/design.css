@@ -1,3 +1,8 @@
+*{
+	box-sizing: border-box;
+	font-family: Roboto;
+}
+
 nav{
 	height: 50px;
 	background-color: tan;
@@ -15,6 +20,7 @@ nav{
 
 ul{
 	list-style-type: none;
+	padding-left: 0;
 }
 
 .nav-list{
@@ -26,7 +32,7 @@ ul{
 	margin-top: 150px;
 	width: 600px;
 	margin-left: 100px;
-	border: solid 1px black;
+	
 }
 
 .search-jobs{
@@ -35,6 +41,7 @@ ul{
 
 .search-input{
 	width: 80%;
+	height: 25px;
 	position: relative;
 	border: none;
 }
@@ -47,4 +54,31 @@ button{
 	float: right;
 	position: absolute;
 	border: none;
+	height: 25px;
+}
+
+.lower-nav{
+	margin-top: 40px;
+	margin-left: 100px;
+	padding: 8px, 25px;
+	position: 
+}
+
+.current, .previous, .next{
+	border: 1px solid black;
+	float: left;
+	padding: 8px 25px;
+}
+
+.other-jobs{
+	clear: both;
+	margin-left: 100px;
+	padding-left: 0;
+}
+
+
+.jobs{
+	position: relative;
+	top: 80px;
+	margin-top: 10px;
 }
