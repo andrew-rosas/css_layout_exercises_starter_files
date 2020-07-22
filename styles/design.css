@@ -5,17 +5,19 @@
 
 nav{
 	height: 50px;
-	background-color: tan;
+	background-color: white;
 	text-align: right;
 	position: fixed;
 	width: 100%;
 	top: 0;
+	border-bottom: 1px solid #DDDDDD;
 }
 
 .home{
 	position: absolute;
-	left: 15px;
-	
+	left: 15px;	
+	color: initial;
+
 }
 
 ul{
@@ -29,7 +31,7 @@ ul{
 }
 
 .main-container{
-	margin-top: 150px;
+	margin-top: 100px;
 	width: 600px;
 	margin-left: 100px;
 	
@@ -41,31 +43,34 @@ ul{
 
 .search-input{
 	width: 80%;
-	height: 25px;
+	height: 35px;
 	position: relative;
-	border: none;
+	border: 1px solid #DDDDDD;
+	padding-left: 10px;
 }
 
 img{
-	width: 25px;
+	width: 35px;
+	height: 35px;
+	padding: 2px 6px 3px 6px;
+	vertical-align: bottom;
 }
 
 button{
 	float: right;
 	position: absolute;
-	border: none;
-	height: 25px;
+	height: 37px;
+	border: 1px solid #DDDDDD;
 }
 
 .lower-nav{
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-left: 100px;
 	padding: 8px, 25px;
-	position: 
 }
 
 .current, .previous, .next{
-	border: 1px solid black;
+	border: 1px solid #DDDDDD;
 	float: left;
 	padding: 8px 25px;
 }
@@ -77,8 +82,23 @@ button{
 }
 
 
-.jobs{
+.listing{
 	position: relative;
-	top: 80px;
-	margin-top: 10px;
+	top: 50px;
+	margin-top: 15px;
+	color: #999
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+}
+
+.jobs{
+	margin-left: 8px;
+	margin-right: 8px;
+	font-weight: 700;
 }
